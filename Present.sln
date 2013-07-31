@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Present.WebMvc", "LevelUp\Present.WebMvc.csproj", "{66867A97-D1E8-4730-8FD4-7E6E1DCFD227}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Present.Infrastructure.Services", "Present.Infrastructure.Services\Present.Infrastructure.Services.csproj", "{68F55903-6505-4BB7-B1B6-724F0FD6B6DB}"
@@ -8,15 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Present.Domain", "Present.Domain\Present.Domain.csproj", "{0A570077-8EF4-4635-A4E7-2FBCE8C29345}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://minsk-app-tfs1:8080/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = LevelUp\\Present.WebMvc.csproj
-		SccProjectName1 = LevelUp
-		SccLocalPath1 = LevelUp
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
