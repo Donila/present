@@ -2,3 +2,4 @@ C:\Users\Cetsmo\Documents\GitHub\present\Present.Domain\bin\Debug\Present.Domain
 C:\Users\Cetsmo\Documents\GitHub\present\Present.Domain\bin\Debug\Present.Domain.pdb
 C:\Users\Cetsmo\Documents\GitHub\present\Present.Domain\obj\Debug\Present.Domain.dll
 C:\Users\Cetsmo\Documents\GitHub\present\Present.Domain\obj\Debug\Present.Domain.pdb
+c:\Users\Cetsmo\Documents\GitHub\present\Present.Domain\obj\Debug\Present.Domain.csprojResolveAssemblyReference.cache
