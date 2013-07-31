@@ -38,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.1.1\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\packages\Autofac.Mvc3.2.6.3.862\lib\NET40\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -64,14 +70,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\AllowAnonymousAttribute.cs" />
+    <Compile Include="Configuration\BootStrapper.cs" />
+    <Compile Include="Configuration\ClassesContainer.cs" />
+    <Compile Include="Configuration\Resolver.cs" />
     <Compile Include="Controllers\AuthorizationController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SecureController.cs" />
     <Compile Include="Extension\HtmlExtensions.cs" />
     <Compile Include="Filters\LogonAuthorize.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="Models\LogOnModel.cs" />
     <Compile Include="Models\RegisrationModel.cs" />
     <Compile Include="Models\SecureModel.cs" />

@@ -1,16 +1,26 @@
 ﻿using System.Web.Mvc;
+using Present.Infrastructure.Services;
 using Present.WebMvc.Attributes;
 
 namespace Present.WebMvc.Controllers
 {
      [AllowAnonymous]
-    public class HomeController : Controller
-    {
+    public class HomeController : BaseController
+     {
+         private IHomeControllerService _controllerService;
 
-        public ActionResult Index()
+         public HomeController()
+         {
+         }
+
+         public HomeController(IHomeControllerService controllerService)
+         {
+             _controllerService = controllerService;
+         }
+
+         public ActionResult Index()
         {
             return View();
         }
-
     }
 }

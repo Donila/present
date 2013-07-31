@@ -1,18 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
+using Autofac.Integration.Mvc;
 using Present.WebMvc.Filters;
 
-namespace LevelUp
+namespace Present.WebMvc.Configuration
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
-    public class MvcApplication : System.Web.HttpApplication
+    public partial class BootStrapper : HttpApplication
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
@@ -38,11 +37,13 @@ namespace LevelUp
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(Resolver.Container.Container));
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
-           
+
             if (Request.IsAuthenticated && Membership.GetUser() == null)
             {
                 FormsAuthentication.SignOut();

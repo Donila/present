@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="LevelUp.MvcApplication" Language="C#" %>
+﻿<%@ Application Inherits="Present.WebMvc.Configuration.BootStrapper" Language="C#" CodeFile="Configuration/Bootstrapper.cs"%>

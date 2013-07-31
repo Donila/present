@@ -6,3 +6,6 @@ c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.dll
 c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.pdb
 c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.dll
 c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.pdb
+C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.dll
+C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.Integration.Mvc.dll
+C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.xml
