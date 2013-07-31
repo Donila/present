@@ -1,0 +1,67 @@
+﻿@using LevelUp.Extension
+@model LevelUp.Models.LogOnModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+@Url.RenderScript("~/Scripts/jquery.validate.min.js")
+@Url.RenderScript("~/Scripts/jquery.validate.unobtrusive.min.js")
+@Url.RenderCssLink("~/Content/css/style-login.css")
+
+
+
+<div class="login-form-container">
+    <div class="header">
+      
+    </div>
+
+    <center>
+        @Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+    </center>
+
+    @using (Html.BeginForm())
+    {
+        <div>
+            <fieldset>
+                <legend>Account Information</legend>
+                
+                
+                
+                <table style="width: 100%">
+                    <tr>
+                        <td colspan="2">@Html.LabelFor(m => m.Username)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.TextBoxFor(m => m.Username)
+                        </td>
+                        <td>
+                            <div class="validation-line">@Html.ValidationMessageFor(m => m.Username)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            @Html.LabelFor(m => m.Password)
+                        </td>
+                     
+                    </tr>
+                    <tr>
+                        <td>@Html.PasswordFor(m => m.Password)</td>
+                        <td> <div class="validation-line">@Html.ValidationMessageFor(m => m.Password)</div></td>
+                    </tr>
+                    <tr>
+                        
+                        <td colspan="2" style="text-align: center;">
+                            <input type="submit" value="Log On" />
+                        </td>
+                    </tr>
+                </table>
+                
+
+            </fieldset>
+        </div>
+    }
+</div>
+

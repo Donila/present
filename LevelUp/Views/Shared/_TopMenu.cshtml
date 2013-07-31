@@ -1,0 +1,94 @@
+﻿@using LevelUp.Extension
+<html lang="en" class="no-js">
+	<head>
+		
+	
+	  
+        @Url.RenderCssLink("~/Content/css/Menu/default.css")
+	    @Url.RenderCssLink("~/Content/css/Menu/component.css")
+		@Url.RenderScript("~/Scripts/modernizr.custom.js")
+	
+	</head>
+	<body>
+		<div class="container">	
+			
+			
+			<div class="main clearfix">
+				<nav id="menu" class="nav">					
+					<ul>
+						<li>
+							<a href="../Authorization/Index">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span>Authorization</span>
+							</a>
+						</li>
+						<li>
+							<a href="../Authorization/Registration">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span>Registration</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span>Temp</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span>Temp</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span>Temp</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span>Temp</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div><!-- /container -->
+		<script>
+		    //  The function to change the class
+		    var changeClass = function (r, className1, className2) {
+		        var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
+		        if (regex.test(r.className)) {
+		            r.className = r.className.replace(regex, ' ' + className2 + ' ');
+		        }
+		        else {
+		            r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"), ' ' + className1 + ' ');
+		        }
+		        return r.className;
+		    };
+
+		    //  Creating our button in JS for smaller screens
+		    var menuElements = document.getElementById('menu');
+		    menuElements.insertAdjacentHTML('afterBegin', '<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+
+		    //  Toggle the class on click to show / hide the menu
+		    document.getElementById('menutoggle').onclick = function () {
+		        changeClass(this, 'navtoogle active', 'navtoogle');
+		    }
+		</script>
+	</body>
+</html>
