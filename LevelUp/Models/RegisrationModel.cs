@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LevelUp.Models
+namespace Present.WebMvc.Models
 {
     public class RegisrationModel
     {

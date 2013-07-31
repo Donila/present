@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Security;
 
-namespace LevelUp.Providers
+namespace Present.WebMvc.Providers
 {
     /*
     Copyright © 2011 Kory Becker (http://www.primaryobjects.com)

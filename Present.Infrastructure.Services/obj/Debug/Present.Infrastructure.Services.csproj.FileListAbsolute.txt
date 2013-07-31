@@ -1,0 +1,7 @@
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.dll
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.pdb
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.dll
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.pdb
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.dll
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.pdb
+C:\Users\Cetsmo\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.csprojResolveAssemblyReference.cache

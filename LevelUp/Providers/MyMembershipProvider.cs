@@ -3,7 +3,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.Caching;
 
-namespace LevelUp.Providers
+namespace Present.WebMvc.Providers
 {
     /*
     Copyright © 2011 Kory Becker (http://www.primaryobjects.com)

@@ -1,0 +1,8 @@
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Views\Authorization\Index.cshtml
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.WebMvc.dll
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.WebMvc.pdb
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.csprojResolveAssemblyReference.cache
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.dll
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.pdb
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.dll
+c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.pdb
