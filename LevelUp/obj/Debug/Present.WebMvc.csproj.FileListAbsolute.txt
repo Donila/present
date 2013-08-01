@@ -9,3 +9,14 @@ c:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Serv
 C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.dll
 C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.Integration.Mvc.dll
 C:\Users\Cetsmo\Documents\GitHub\present\LevelUp\bin\Autofac.xml
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Views\Authorization\Index.cshtml
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Present.WebMvc.dll
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Present.WebMvc.pdb
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Autofac.dll
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Autofac.Integration.Mvc.dll
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Present.Infrastructure.Services.dll
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Present.Infrastructure.Services.pdb
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Autofac.xml
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.csprojResolveAssemblyReference.cache
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.dll
+C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.pdb
