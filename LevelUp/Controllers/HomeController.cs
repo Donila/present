@@ -4,15 +4,13 @@ using Present.WebMvc.Attributes;
 
 namespace Present.WebMvc.Controllers
 {
-     [AllowAnonymous]
+    [AllowAnonymous]
     public class HomeController : BaseController
      {
          private IHomeControllerService _controllerService;
 
          public HomeController()
          {
-
-
          }
 
          public HomeController(IHomeControllerService controllerService)
@@ -22,8 +20,6 @@ namespace Present.WebMvc.Controllers
 
          public ActionResult Index()
         {
-
-
             return View();
         }
     }
