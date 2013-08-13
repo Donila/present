@@ -12,3 +12,10 @@ C:\Users\Cetsmo\Documents\GitHub\present2\Present.Infrastructure.Services\bin\De
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.csprojResolveAssemblyReference.cache
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.dll
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.pdb

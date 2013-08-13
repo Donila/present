@@ -8,3 +8,8 @@ C:\Users\Cetsmo\Documents\GitHub\present2\Present.Domain\bin\Debug\Present.Domai
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Domain\obj\Debug\Present.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Domain\obj\Debug\Present.Domain.dll
 C:\Users\Cetsmo\Documents\GitHub\present2\Present.Domain\obj\Debug\Present.Domain.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Domain\bin\Debug\Present.Domain.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Domain\bin\Debug\Present.Domain.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Domain\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Domain\obj\Debug\Present.Domain.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Domain\obj\Debug\Present.Domain.pdb

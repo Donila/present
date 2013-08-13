@@ -1,0 +1,5 @@
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Data.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Data.pdb
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\Present.Data.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\Present.Data.pdb

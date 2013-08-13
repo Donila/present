@@ -20,3 +20,14 @@ C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\bin\Autofac.xml
 C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.csprojResolveAssemblyReference.cache
 C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.dll
 C:\Users\Cetsmo\Documents\GitHub\present2\LevelUp\obj\Debug\Present.WebMvc.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Views\Authorization\Index.cshtml
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Present.WebMvc.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Present.WebMvc.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Autofac.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Autofac.Integration.Mvc.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Present.Infrastructure.Services.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\bin\Autofac.xml
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\LevelUp\obj\Debug\Present.WebMvc.pdb
