@@ -1,12 +1,31 @@
-﻿using System.Web.Mvc;
+﻿using System.Web.Caching;
+using System.Web.Mvc;
 using System.Web.Security;
+using Present.Infrastructure.Services;
+using Present.Infrastructure.Services.Users;
 using Present.WebMvc.Attributes;
 using Present.WebMvc.Models;
+using Present.WebMvc.Providers;
 
 namespace Present.WebMvc.Controllers
 {
     public class AuthorizationController : Controller
     {
+        private IAuthorizationControllerService _authorizationControllerService;
+
+        
+
+
+
+         public AuthorizationController(IAuthorizationControllerService authorizationControllerService)
+         {
+             _authorizationControllerService = authorizationControllerService;
+         }
+
+       
+
+
+
         [AllowAnonymous]
         public ActionResult Index()
         {
@@ -28,12 +47,12 @@ namespace Present.WebMvc.Controllers
             // Verify the fields.
             if (ModelState.IsValid)
             {
-                // Validate the user login.
-                if (Membership.ValidateUser(model.Username, model.Password))
-                {
-                    // Create the authentication ticket.
-                    FormsAuthentication.SetAuthCookie(model.Username, false);
 
+                var user = _authorizationControllerService.ValidateUser(model.Username, model.Password);
+                if (user != null)
+                {
+                    System.Web.HttpContext.Current.Cache.Add(user.UserName, new MyMembershipUser(user.UserId, user.UserName), null, Cache.NoAbsoluteExpiration, FormsAuthentication.Timeout, CacheItemPriority.Default, null);
+                    FormsAuthentication.SetAuthCookie(user.UserName, false);
                     // Redirect to the secure area.
                     if (Url.IsLocalUrl(returnUrl) && returnUrl.Length > 1 && returnUrl.StartsWith("/")
                         && !returnUrl.StartsWith("//") && !returnUrl.StartsWith("/\\"))
@@ -49,6 +68,30 @@ namespace Present.WebMvc.Controllers
                 {
                     ModelState.AddModelError("", "The user name or password provided is incorrect.");
                 }
+
+
+
+                //// Validate the user login.
+                //if (Membership.ValidateUser(model.Username, model.Password))
+                //{
+                //    // Create the authentication ticket.
+                //    FormsAuthentication.SetAuthCookie(model.Username, false);
+
+                //    // Redirect to the secure area.
+                //    if (Url.IsLocalUrl(returnUrl) && returnUrl.Length > 1 && returnUrl.StartsWith("/")
+                //        && !returnUrl.StartsWith("//") && !returnUrl.StartsWith("/\\"))
+                //    {
+                //        return Redirect(returnUrl);
+                //    }
+                //    else
+                //    {
+                //        return RedirectToAction("Index", "Secure");
+                //    }
+                //}
+                //else
+                //{
+                //    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                //}
             }
 
             return View(model);

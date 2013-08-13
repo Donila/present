@@ -15,7 +15,14 @@ C:\Users\Cetsmo\Documents\GitHub\present2\Present.Infrastructure.Services\obj\De
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.dll
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Infrastructure.Services.pdb
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Core.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\LinqSpecs.dll
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Domain.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Core.pdb
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\ResolveAssemblyReference.cache
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.dll
 c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\obj\Debug\Present.Infrastructure.Services.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Data.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\EntityFramework.dll
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\Present.Data.pdb
+c:\Users\vladimirbalyko\Documents\GitHub\present\Present.Infrastructure.Services\bin\Debug\EntityFramework.xml

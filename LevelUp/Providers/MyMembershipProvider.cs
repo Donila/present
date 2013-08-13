@@ -173,20 +173,21 @@ namespace Present.WebMvc.Providers
         /// <returns>bool</returns>
         public override bool ValidateUser(string username, string password)
         {
-            if (username == "testuser" && password == "password")
-            {
-                // Simulate a user id.
-                int userId = new Random().Next(1, 100);
+            //if (username == "testuser" && password == "password")
+            //{
+            //    // Simulate a user id.
+            //    int userId = new Random().Next(1, 100);
 
-                // Add the user details to cache, for quick retrieval later.
-                HttpContext.Current.Cache.Add(username, new MyMembershipUser(userId, username), null, Cache.NoAbsoluteExpiration, FormsAuthentication.Timeout, CacheItemPriority.Default, null);
+            //    // Add the user details to cache, for quick retrieval later.
+            //    HttpContext.Current.Cache.Add(username, new MyMembershipUser(userId, username), null, Cache.NoAbsoluteExpiration, FormsAuthentication.Timeout, CacheItemPriority.Default, null);
 
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+            return true;
         }
 
         /// <summary>

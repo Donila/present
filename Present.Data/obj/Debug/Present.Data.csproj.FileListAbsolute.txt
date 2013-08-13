@@ -1,5 +1,13 @@
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Data.dll.config
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Data.dll
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Data.pdb
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\EntityFramework.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\LinqSpecs.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Core.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Domain.dll
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Core.pdb
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\Present.Domain.pdb
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\bin\Debug\EntityFramework.xml
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\Present.Data.dll
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Data\obj\Debug\Present.Data.pdb

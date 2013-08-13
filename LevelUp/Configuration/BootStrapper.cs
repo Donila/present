@@ -38,7 +38,7 @@ namespace Present.WebMvc.Configuration
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(Resolver.Container.Container));
+         //   DependencyResolver.SetResolver(new AutofacDependencyResolver(Resolver.Container.Container));
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)

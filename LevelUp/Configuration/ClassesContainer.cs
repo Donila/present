@@ -24,7 +24,9 @@ namespace Present.WebMvc.Configuration
                 {
                     Assembly.Load("Present.WebMvc"),
                     Assembly.Load("Present.Infrastructure.Services"),
-                    Assembly.Load("Present.Domain")
+                    Assembly.Load("Present.Domain"),
+                    Assembly.Load("Present.Data"),
+                    Assembly.Load("Present.Core")
                 };
 
             _builder.RegisterAssemblyModules(assemblies);

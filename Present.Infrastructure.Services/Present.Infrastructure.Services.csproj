@@ -40,10 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Users\AuthorizationControllerService.cs" />
     <Compile Include="HomeControllerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\Models\AuthorizationUserResponse.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Present.Core\Present.Core.csproj">
+      <Project>{C3A6627B-A70F-425E-B15D-9316559DD890}</Project>
+      <Name>Present.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Present.Data\Present.Data.csproj">
+      <Project>{3EC4833F-34E0-4FD0-8C33-F40CF72A5733}</Project>
+      <Name>Present.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Present.Domain\Present.Domain.csproj">
       <Project>{0A570077-8EF4-4635-A4E7-2FBCE8C29345}</Project>
       <Name>Present.Domain</Name>

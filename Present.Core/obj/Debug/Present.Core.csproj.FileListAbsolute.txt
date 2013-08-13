@@ -1,5 +1,6 @@
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\bin\Debug\Present.Core.dll
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\bin\Debug\Present.Core.pdb
+C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\bin\Debug\LinqSpecs.dll
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\obj\Debug\Present.Core.dll
 C:\Users\vladimirbalyko\Documents\GitHub\present\Present.Core\obj\Debug\Present.Core.pdb
